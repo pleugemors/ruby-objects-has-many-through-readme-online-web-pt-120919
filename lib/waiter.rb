@@ -26,7 +26,7 @@ class Waiter
     #best_tipped_meal = meals.max do |meal_a, meal_b|
      # meal_a.tip <=> meal_b.tip
       
-    best_tipped_meal = meals.max_by{|meal| meal.tip} 
+    best_tipped_meal = meals.max_by{|meal_name| meal_name.tip} 
    # end
    #binding.pry
     best_tipped_meal.customer
