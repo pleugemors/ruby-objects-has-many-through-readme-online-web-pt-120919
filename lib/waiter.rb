@@ -15,7 +15,6 @@ class Waiter
   end
   
   def new_meal(customer, total, tip=0)
-    puts tip 
     Meal.new(self, customer, total, tip)
   end
   
